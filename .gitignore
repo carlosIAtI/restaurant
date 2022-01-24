@@ -1,0 +1,27 @@
+# Private data
+/mokai/mokai/private.py
+
+# Backups
+/*.json
+/*.tar.gz
+
+# Builds
+*.pyc
+__pycache__
+/env
+.sass-cache
+*.swp
+uwsgi.ini
+supervisor.conf
+db.sqlite3
+
+# npm
+/node_modules
+/package-lock.json
+!/package.json
+
+# Media
+/mokai/media
+
+# Satic
+/mokai/static
